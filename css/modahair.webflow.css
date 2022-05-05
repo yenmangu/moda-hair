@@ -2744,6 +2744,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 500px;
+  padding-top: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -3173,6 +3174,8 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-right: 26px;
+    padding-left: 26px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3262,6 +3265,21 @@ a {
   .hair-feature {
     top: auto;
   }
+
+  .hair-service-list {
+    width: 500px;
+    height: auto;
+    padding-top: 60px;
+    grid-row-gap: 14px;
+  }
+
+  .hair-service-price {
+    font-size: 20px;
+  }
+
+  .hair-service-text {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -3275,10 +3293,9 @@ a {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -3351,6 +3368,7 @@ a {
   }
 
   .hair-feature {
+    width: 700px;
     grid-row-gap: 50px;
   }
 
@@ -3360,6 +3378,12 @@ a {
 }
 
 @media screen and (min-width: 1920px) {
+  .section_content {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
   .section_content.appt {
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -3412,13 +3436,18 @@ a {
     column-count: auto;
   }
 
+  .hair-feature {
+    width: 800px;
+  }
+
   .beauty-page-container.beauty-list {
     margin-right: 70px;
     padding-bottom: 9px;
   }
 
   .hair-service-list {
-    width: 550px;
+    width: 600px;
+    padding-top: 28px;
     grid-row-gap: 10px;
     font-size: 20px;
   }
