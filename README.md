@@ -1,2 +1,0 @@
-# moda-hair
-
