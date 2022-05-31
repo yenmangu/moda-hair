@@ -409,6 +409,8 @@ a {
     height: auto;
     max-height: none;
     padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -852,6 +854,7 @@ a {
     min-width: 100%;
     margin-top: auto;
     opacity: 0.1;
+    top: -200px;
 }
 
 .partnerlogos {
@@ -2486,6 +2489,7 @@ a {
     height: 100%px;
     max-height: 100%;
     padding-top: 20px;
+    padding-left: 40px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -2500,6 +2504,11 @@ a {
     -ms-flex-align: center;
     align-items: center;
     grid-column-gap: 50px;
+    column-gap: 50px;
+}
+
+.paragraph-mobile {
+    padding-left: 40px;
 }
 
 .contact-us-form {
@@ -2589,8 +2598,17 @@ textarea {
     border-width: none;
 }
 
-.map-2 {
-    width: 500px;
+.g-map-moda {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.g-map-iframe {
+    width: 600px;
+    height: 400px;
+    padding-left
 }
 
 .logo-mobile {
@@ -3446,7 +3464,6 @@ textarea {
     }
     .section_content.appt {
         max-height: none;
-        padding-top: 200px;
         padding-bottom: 50px;
     }
     .h2.about-heading {
@@ -4778,6 +4795,8 @@ textarea {
         display: flex;
         padding-top: 20px;
         padding-bottom: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
