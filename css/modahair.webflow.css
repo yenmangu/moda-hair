@@ -3601,6 +3601,7 @@ textarea {
     .div-block-8 {
         max-width: 100.000255046042%;
         min-width: 100%;
+        justify-content: flex-end;
     }
     .hair-service-list {
         width: 440px;
@@ -3608,6 +3609,14 @@ textarea {
     /* .beauty-button {
         margin-left: 100px;
     } */
+    .subtitle {
+        position: relative;
+        z-index: 10;
+        width: 85%;
+        margin-bottom: 0px;
+        font-family: Bitter, serif;
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 1920px) {
@@ -5453,7 +5462,7 @@ textarea {
         -webkit-box-pack: start;
         -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
-        justify-content: flex-start;
+        justify-content: flex-end;
     }
     .beauty-page-container.beauty-list {
         width: auto;
