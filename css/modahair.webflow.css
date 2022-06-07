@@ -2530,7 +2530,7 @@ textarea:focus {
 }
 
 .paragraph-mobile {
-    padding-left: 40px;
+    padding-left: 90px;
 }
 
 .contact-us-form {
@@ -2638,9 +2638,10 @@ textarea {
 }
 
 .g-map-iframe {
+    min-height: 400px;
     width: 100%;
     max-height: none;
-    padding-left
+    padding-right: 100px;
 }
 
 .logo-mobile {
@@ -2997,6 +2998,7 @@ textarea {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
 }
 
 .beauty-page-container {
@@ -3601,7 +3603,7 @@ textarea {
     .div-block-8 {
         max-width: 100.000255046042%;
         min-width: 100%;
-        justify-content: flex-end;
+        justify-content: center;
     }
     .hair-service-list {
         width: 440px;
@@ -4636,9 +4638,13 @@ textarea {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
+        margin-top: 20px;
+        ;
     }
-    .map-2 {
-        width: 500px;
+    .g-map-moda {}
+    .g-map-iframe {
+        max-height: 300px;
+        padding: 20px 0 0 0;
     }
     .dropdown-toggle-2 {
         padding-right: 49px;
@@ -6091,6 +6097,9 @@ textarea {
         grid-row-start: span 1;
         -ms-grid-row-span: 1;
         grid-row-end: span 1;
+    }
+    #w-node-d830f7d8-7838-af2e-f28c-9646db9c978c-db9c9789 {
+        padding-bottom: 20px;
     }
 }
 
