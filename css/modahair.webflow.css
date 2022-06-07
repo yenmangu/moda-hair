@@ -406,12 +406,10 @@ a {
 
 .section_content.appt {
     width: 100% !important;
-   /* overflow: visible;*/
+    /* overflow: visible;*/
     height: auto;
     max-height: none;
     padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
     padding-bottom: 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -748,10 +746,11 @@ textarea:focus {
     font-weight: 200;
 }
 
-
 .success-message {
     background-color: #e22b71;
 }
+
+
 /*
 .form_input {
     height: 45px;
@@ -765,6 +764,7 @@ textarea:focus {
     transition: border 350ms ease;
 }
 */
+
 .form_input:focus {
     border-style: solid;
     border-width: 2px;
@@ -1562,7 +1562,8 @@ textarea:focus {
     display: flex;
     overflow: hidden;
     height: 100%;
-    max-height: none;;
+    max-height: none;
+    ;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1861,6 +1862,7 @@ textarea:focus {
     margin-right: 5px;
     margin-left: 5px;
 }
+
 #beauty-services.beauty-services {
     /* background-image: url(/images/pexels-make-up.jpg); */
     display: flex;
@@ -1869,6 +1871,8 @@ textarea:focus {
     justify-content: center;
     padding-bottom: 20px;
 }
+
+
 /* 
 .background-image-overlay {
     position: relative;
@@ -2505,13 +2509,9 @@ textarea:focus {
     height: 100%;
     max-height: 100%;
     padding-top: 20px;
-<<<<<<< HEAD
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-=======
-    padding-left: 40px;
->>>>>>> 94c6f932a0f13f1e0bc94402c16fa9d2d14abcdd
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -2631,23 +2631,15 @@ textarea {
 
 .g-map-moda {
     display: flex;
-<<<<<<< HEAD
     max-height: 100%;
-=======
->>>>>>> 94c6f932a0f13f1e0bc94402c16fa9d2d14abcdd
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 
 .g-map-iframe {
-<<<<<<< HEAD
     width: 100%;
     max-height: none;
-=======
-    width: 600px;
-    height: 400px;
->>>>>>> 94c6f932a0f13f1e0bc94402c16fa9d2d14abcdd
     padding-left
 }
 
@@ -3351,7 +3343,7 @@ textarea {
     justify-content: flex-end;
 }
 
-.beauty-button{
+.beauty-button {
     max-width: 400px;
     border-radius: 13px;
     background-color: #e22b71;
@@ -3503,10 +3495,7 @@ textarea {
     }
     .section_content.appt {
         max-height: none;
-<<<<<<< HEAD
         width: 100%;
-=======
->>>>>>> 94c6f932a0f13f1e0bc94402c16fa9d2d14abcdd
         padding-bottom: 50px;
     }
     .h2.about-heading {
