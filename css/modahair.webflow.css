@@ -165,7 +165,7 @@ a {
 }
 
 .body {
-    min-width: ;
+    width: 100vw;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -342,10 +342,10 @@ a {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    max-height: none;
     max-width: 100%;
+    max-height: none;
     margin-top: 0px;
-    padding: 40px 60px;
+    /* padding: 40px 60px; */
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -405,7 +405,8 @@ a {
 }
 
 .section_content.appt {
-    overflow: visible;
+    width: 100% !important;
+   /* overflow: visible;*/
     height: auto;
     max-height: none;
     padding-top: 40px;
@@ -734,8 +735,8 @@ a {
     transition: border 350ms ease;
 }
 
-.textarea:focus {
-    border-color: #f3eaea;
+textarea:focus {
+    border-color: #e22b71;
 }
 
 .text-block-4 {
@@ -745,25 +746,11 @@ a {
     font-weight: 200;
 }
 
-.map {
-    display: block;
-    width: 80%;
-    margin-top: 0px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-bottom: 6px solid #e22b71;
-}
 
 .success-message {
     background-color: #e22b71;
 }
-
+/*
 .form_input {
     height: 45px;
     margin-bottom: 20px;
@@ -775,7 +762,7 @@ a {
     -webkit-transition: border 350ms ease;
     transition: border 350ms ease;
 }
-
+*/
 .form_input:focus {
     border-style: solid;
     border-width: 2px;
@@ -852,6 +839,7 @@ a {
     min-width: 100%;
     margin-top: auto;
     opacity: 0.1;
+    top: -200px;
 }
 
 .partnerlogos {
@@ -1571,8 +1559,8 @@ a {
     display: -ms-flexbox;
     display: flex;
     overflow: hidden;
-    height: 100.0000061035156%;
-    min-height: 500px;
+    height: 100%;
+    max-height: none;;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1822,8 +1810,8 @@ a {
 .body_home {
     margin-top: 72px;
     margin-bottom: 5%;
-    padding-right: 22%;
-    padding-left: 22%;
+    /* padding-right: 22%;
+    padding-left: 22%; */
     font-size: 16px;
     text-align: center;
 }
@@ -1871,8 +1859,35 @@ a {
     margin-right: 5px;
     margin-left: 5px;
 }
+#beauty-services.beauty-services {
+    /* background-image: url(/images/pexels-make-up.jpg); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+/* 
+.background-image-overlay {
+    position: relative;
+    /* z-index: 999; 
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/pexels-make-up.jpg);
+    opacity: 1;
+} */
+
+.div-block-14 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+}
 
 .beauty-services {
+    width: 100%;
     max-height: none;
     max-width: 100%;
     -webkit-justify-content: space-around;
@@ -2337,7 +2352,7 @@ a {
     -ms-flex-align: center;
     align-items: center;
     grid-column-gap: 40px;
-    grid-row-gap: 40px;
+    grid-row-gap: 0;
 }
 
 .beauty-text-container {
@@ -2479,13 +2494,18 @@ a {
 }
 
 .form-and-map {
+    background: #d8d8d8;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 100%px;
+    width: 100%;
+    height: 100%;
     max-height: 100%;
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -2500,11 +2520,16 @@ a {
     -ms-flex-align: center;
     align-items: center;
     grid-column-gap: 50px;
+    column-gap: 50px;
+}
+
+.paragraph-mobile {
+    padding-left: 40px;
 }
 
 .contact-us-form {
     height: auto;
-    width: 25rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2517,7 +2542,13 @@ a {
     gap: 20px;
 }
 
+.cf-input {
+    width: 100%;
+    max-width: 100%;
+}
+
 .cf-name {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2525,6 +2556,7 @@ a {
 }
 
 .cf-email {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2532,6 +2564,7 @@ a {
 }
 
 .cf-number {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2561,8 +2594,9 @@ a {
 }
 
 textarea {
-    width: 25rem;
-    height: 15rem;
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
     resize: none;
     border-radius: 13px;
 }
@@ -2589,8 +2623,18 @@ textarea {
     border-width: none;
 }
 
-.map-2 {
-    width: 500px;
+.g-map-moda {
+    display: flex;
+    max-height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.g-map-iframe {
+    width: 100%;
+    max-height: none;
+    padding-left
 }
 
 .logo-mobile {
@@ -3293,9 +3337,8 @@ textarea {
     justify-content: flex-end;
 }
 
-.beauty-button {
+.beauty-button{
     max-width: 400px;
-    margin-left: 40px;
     border-radius: 13px;
     background-color: #e22b71;
     font-family: Castelar, sans-serif;
@@ -3310,8 +3353,8 @@ textarea {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        padding-right: 26px;
-        padding-left: 26px;
+        /* padding-right: 26px;
+        padding-left: 26px; */
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
@@ -3446,7 +3489,7 @@ textarea {
     }
     .section_content.appt {
         max-height: none;
-        padding-top: 200px;
+        width: 100%;
         padding-bottom: 50px;
     }
     .h2.about-heading {
@@ -3556,9 +3599,9 @@ textarea {
     .hair-service-list {
         width: 440px;
     }
-    .beauty-button {
+    /* .beauty-button {
         margin-left: 100px;
-    }
+    } */
 }
 
 @media screen and (min-width: 1920px) {
@@ -3580,6 +3623,7 @@ textarea {
         max-height: 100vh;
     }
     .section_content.appt {
+        width: 100%;
         -webkit-box-align: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
@@ -3698,6 +3742,7 @@ textarea {
         line-height: 60px;
     }
     .body {
+        width: 100vw;
         max-width: 100%
     }
     .hero_cta {
@@ -3749,7 +3794,6 @@ textarea {
         display: flex;
     }
     .section_content.appt {
-        overflow: hidden;
         max-height: none;
         padding-top: 0px;
         padding-bottom: 88px;
@@ -4282,6 +4326,7 @@ textarea {
     .section_content.appt {
         height: auto;
         max-height: none;
+        width: 100%;
     }
     .h2 {
         text-align: center;
@@ -4778,6 +4823,8 @@ textarea {
         display: flex;
         padding-top: 20px;
         padding-bottom: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
